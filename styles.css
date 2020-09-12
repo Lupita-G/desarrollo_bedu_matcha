@@ -1,9 +1,30 @@
 h1 {
-    color:#8b8b8bcc;
+    color:#025157;
 } 
 h4 {
-    color:#46484c;
+    color:gray ;
 }
 button {
     color:#fff;
+}
+button {
+    background-color:#025157;
+    color:white ;
+}
+label {
+    color: gray;
+}
+p {
+    color: gray;
+
+}
+.flexible {
+    display: flex;
+    
+ }
+
+header {
+    display: flex;
+    justify-content: space-between;
+
 }
