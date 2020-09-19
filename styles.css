@@ -138,5 +138,21 @@ p {
 }
 .publish {
     flex: 1;
+}
+/*uso del grid*/
+.features {
+    display: grid;
+    grid-template: repeat(2, 1fr) / repeat(2, 330px);
+    background-color: #025157;
+    padding: 5% 10%;
+}
+.feature-card {
+    margin-bottom: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: #fff;
+    border: 1px solid #dadada;
+    border-radius: 5px;
+    height:300px;
 
 }
