@@ -5,38 +5,28 @@
         <link href="styles.css" type="text/css" rel="stylesheet" />
     </head>
     <body bgcolor="#fffbf7">
-        <header class="header"
-           <a href="/" class="logo">
-            <img src="https://getmatcha.com/wp-content/themes/getmatcha/img/footer_logo.svg">
+        <header class="header">
+   <!--TODO: Falta darle vista a la barra de navegación, acomodarla correctamente-->         
+           <a href="/">
+              <img src="https://getmatcha.com/wp-content/themes/getmatcha/img/footer_logo.svg">
            </a>
-           <div class="barra-contenido">
+           <nav class="actions">
             <ul>
-                <li class="nav-item">
-                    <a class="nav-link">Platform</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link">Pricing</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link">Customers</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link">Resources</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link">About</a>
-                </li>
-
+                <li>Platform </li>
+                <li> Pricing </li>
+                <li>Customers </li>
+                <li> Resources</li>
+                <li>About</li>
             </ul>
-           </div>
-         
-           
-           <div>
-             <a>Sing In</a>
-             <button>Start free trial</button>
-           </div>
+              <form>
+            <div class="navbar">
+                <a>Sing In</a>
+                <button>Start free trial</button>
+               </form>
+            </div>
+            </nav>
         </header>
-        <h1><big>Build your blog. Build your business</big><h1>
+        <h1>Build your blog. Build your business<h1>
         <h4>Instantly publish articles, drive more traffic, grow your email list, and see your blog’s impact on sales.
         </h4>
         <form>
@@ -45,9 +35,46 @@
             Try it now &rarr;
             </button>
         </form>
-        <p>Start publishing today with a fre 7-day trial. <br />No credit card required</p>
+        <p class="inicial">Start publishing today with a fre 7-day trial. <br />No credit card required</p>
+ <!--imagen de capterra falta alinear --> 
         <figure class="capterra">
-        <img  src="https://getmatcha.com/wp-content/themes/getmatcha/img/capterra.png" />
-        </figure>   
+            <img  src="https://getmatcha.com/wp-content/themes/getmatcha/img/capterra.png" />
+        </figure>
+        <figure class="img-contenido">
+            <img src="https://getmatcha.com/wp-content/uploads/2019/09/intro_group_image.png" />
+        </figure> 
+     <!--Contenedor flex-->   
+        <section class="promo">
+          <article class="explanatory-video">
+            <video controls>
+                <source
+                type="video/webm" 
+                src="https://cdn.videvo.net/videvo_files/video/premium/video0036/small_watermarked/computer_code00_preview.webm"/>
+                <source
+                type="video/mp4"
+                src="https://cdn.videvo.net/videvo_files/video/premium/video0036/small_watermarked/computer_code00_preview.webm"/>
+            </video>
+        <!--Imagen debajo del video-->    
+            <img
+              src="https://getmatcha.com/wp-content/themes/getmatcha/img/see_how_it_works.png"
+              alt="see how it works" />
+          </article>
+        <!--Agregando el texto publicitario-->
+          <article class="publish">
+            <h2><big>Publish to your blog in minutes, not hours.</big></h2>
+            <p class="publicidad">Your blog is your most powerful asset to build, engage, and retain a loyal audience. But <br />
+            you don’t have hours to create content that may or may not work. With Matcha, instantly<br />
+            publish from our library of 10,000+ professionally written articles and build your email list<br />
+            faster with our powerful conversion tool.
+            </p>  
+          <form>
+            <p>Start publishing today:</p>
+            <div>
+                <input type="text" placeholder="Enter email"/>
+                <button>Start My Trial</button>
+            </div>
+          </form>
+         </article>
+        </section>      
     </body>
 </html>
