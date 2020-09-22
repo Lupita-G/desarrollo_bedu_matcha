@@ -1,16 +1,20 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no"
+        />
         <title>Matcha-Lupita</title>
         <link href="styles.css" type="text/css" rel="stylesheet" />
     </head>
     <body bgcolor="#fffbf7">
         <header class="header">
    <!--TODO: Falta darle vista a la barra de navegación, acomodarla correctamente-->         
-           <a href="/">
-              <img src="https://getmatcha.com/wp-content/themes/getmatcha/img/footer_logo.svg">
-           </a>
-           <nav class="actions">
+          <a href="/" class="logo">
+              <img src="https://getmatcha.com/wp-content/themes/getmatcha/img/footer_logo.svg"
+               alt="Matcha"
+              />
+          </a>
+          <nav class="navbar">
             <ul>
                 <li>Platform </li>
                 <li> Pricing </li>
@@ -18,13 +22,13 @@
                 <li> Resources</li>
                 <li>About</li>
             </ul>
-              <form>
-            <div class="navbar">
+          </nav>
+          <form>
+            <div class="actions">
                 <a>Sing In</a>
                 <button>Start free trial</button>
-               </form>
             </div>
-            </nav>
+          </form>
         </header>
         <h1>Build your blog. Build your business<h1>
         <h4>Instantly publish articles, drive more traffic, grow your email list, and see your blog’s impact on sales.
@@ -36,13 +40,23 @@
             </button>
         </form>
         <p class="inicial">Start publishing today with a fre 7-day trial. <br />No credit card required</p>
- <!--imagen de capterra falta alinear --> 
-        <figure class="capterra">
-            <img  src="https://getmatcha.com/wp-content/themes/getmatcha/img/capterra.png" />
-        </figure>
-        <figure class="img-contenido">
-            <img src="https://getmatcha.com/wp-content/uploads/2019/09/intro_group_image.png" />
-        </figure> 
+ <!--imagen de capterra y posterior --> 
+        <main>
+          <figure class="capterra">
+            <img  
+              src="https://getmatcha.com/wp-content/themes/getmatcha/img/capterra.png"
+              alt="capterra icon"
+            />
+          </figure>
+        </main>
+        <div class="img-contenido">
+          <figure>
+            <img 
+              src="https://getmatcha.com/wp-content/uploads/2019/09/intro_group_image.png"
+              alt="img-publicidad"
+            />
+          </figure>
+         </div>  
      <!--Contenedor flex-->   
         <section class="promo">
           <article class="explanatory-video">
@@ -55,9 +69,10 @@
                 src="https://cdn.videvo.net/videvo_files/video/premium/video0036/small_watermarked/computer_code00_preview.webm"/>
             </video>
         <!--Imagen debajo del video-->    
-            <img
+              <img
               src="https://getmatcha.com/wp-content/themes/getmatcha/img/see_how_it_works.png"
-              alt="see how it works" />
+              alt="see how it works"
+              />
           </article>
         <!--Agregando el texto publicitario-->
           <article class="publish">
@@ -173,6 +188,7 @@
               </figure>
             </div>
           </article>
-        </section>     
+        </section> 
+
     </body>
 </html>

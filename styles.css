@@ -35,6 +35,55 @@ li {
     display: inline;
     color:  #025157;   
 }
+/* Desactive la barra de navegación*/
+@media (max-width: 575px){
+  .navbar,
+  .actions {
+      display: none;
+  }
+  main {
+      margin-top: 130px;
+  }
+  h1 {
+      font-size: 30px;
+  }
+  .capterra img {
+      width: 100%;
+  }
+  .promo {
+      flex-direction: column;
+      max-width: 90%;
+  }
+  .explanatory-video > video {
+      width: 100%;
+  }
+  .publish {
+      margin-top: 10px;
+  }
+  .publish > h3 {
+      font-size: 25px;
+      line-height: 1.2;
+  }
+  .publish > form {
+      flex-direction: column;
+  }
+  .publish > form > div {
+      height: 50px;
+      margin-top: 10px;
+  }
+  .publish > form > div > input {
+      width: 65%;
+  }
+  .features {
+      grid-template: repeat(4, 1fr) / 1fr;
+      padding-left: 0;
+      padding-right: 0;
+  }
+  .feature-image {
+      display: none;
+  }
+}
+
 .header {
     margin-top: 40px;
     margin-left: 20px;
@@ -100,14 +149,14 @@ h2 {
     background-color: #fffbf7;
     font-family: "Alegreya", serif;
 }
-/*imagen de capterra*/ 
-.capterra > img {
-    vertical-align: middle;
+.capterra img {
+    display: block;
+    margin: auto;
 }
-/*imagen de publicidad*/
-.img-contenido > img {
+.img-contenido img {
     width: 70%;
-    
+    display: block;
+    margin: auto;
 }
 
 /*parrafo de la publicidad */
